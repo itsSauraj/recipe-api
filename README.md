@@ -66,7 +66,11 @@ To set up the project, follow these steps:
 
 4. Run the application:
     ```bash
-    uvicorn main:app --reload
+    uvicorn app:app --reload
+    ```
+    or
+    ```
+    fastapi dev app.py
     ```
 
 5. Access the API documentation at [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs).
